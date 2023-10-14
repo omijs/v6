@@ -1,0 +1,24 @@
+{
+  "name": "@omiu/common",
+  "version": "0.0.5",
+  "description": "Omi UI Components.",
+  "main": "src/index.js",
+  "module": "src/index.esm.js",
+  "scripts": {
+    "build": "rollup -c scripts/rollup.config.js"
+  },
+  "keywords": [],
+  "author": "dntzhang",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "rollup": "^2.7.1",
+    "rollup-plugin-license": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "color-string": "^1.5.3"
+  }
+}
